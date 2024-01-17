@@ -1,0 +1,136 @@
+body {
+    background: linear-gradient(45deg, #ffffff, #000000);
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+ 
+  
+  
+  .drop {
+ 
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+ 
+    transition: all 0.2s ease;
+  }
+  .drop-1 {
+    height: auto;
+    width: auto;
+    margin-top: 29px;
+    margin-bottom: 29px;
+
+
+  }
+  
+  
+  a,
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+
+
+
+
+
+
+
+
+  .program-info {
+    width: auto;
+    height: auto;
+    margin: 29px 0px;
+    display: block;
+    background-color: #e8e8e8;
+    box-shadow: 5px 5px 5px #b3b3b3, -5px -5px 5px #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .logo {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #b3b3b3, -5px -5px 10px #ffffff;
+  }
+
+  .channel-name {
+    font-weight: bold;
+    color: Green;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 blue, 0 -1px green;
+    
+    text-shadow: 5px 5px 10px #b3b3b3, -3px -3px 10px #ffffff;
+
+    font-size: 1.2rem;
+    
+  }
+
+  .s-n {
+    font-weight: bold;
+    color: #333333;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    position: absolute;
+    color: red;
+    text-shadow: 5px 5px 10px #b3b3b3, -3px -3px 10px #ffffff;
+
+  }
+  .program-name {
+    margin-top: 13px;
+    font-size: 1.4rem;
+    margin-left: 5px;
+    font-weight: bold;
+    color: green;
+    padding: 10px 10px;
+
+  }
+
+  .program-description {
+   
+    color: #e10083;
+    font-weight: 300;
+padding-bottom: 30px;
+margin-left: 20px;
+
+
+  }
+
+  .program-timing {
+    margin-top: 15px;
+    font-style: italic;
+    color: Blue;
+  text-shadow: 5px 5px 10px #b3b3b3, -5px -5px 10px #ffffff;
+
+  }
+  .span .channel-name 
+  {
+    margin-top: 20px;
+  }
+
+  #jwplayerDiv
+  {
+    
+        width: auto;
+        height: auto;
+        display: block;
+        background-color: #e8e8e8;
+        box-shadow: 5px 5px 5px #b3b3b3, -5px -5px 5px #ffffff;
+        border-radius: 15px;
+        padding: 0px;
+        overflow: hidden;
+    
+      
+  }
